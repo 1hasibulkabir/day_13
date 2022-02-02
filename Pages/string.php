@@ -27,49 +27,43 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <div class="card">
-                    <div class="card-header">My Series</div>
+                    <div class="card-header">My String</div>
                     <div class="card-body">
                         <form action="action.php" method="post">
                             <div class="form-group-row">
-                                <label class="col-md-3 col-form-label">Starting Number</label>
+                                <label class="col-md-3 col-form-label">Enter your string</label>
                                 <div class="col-md-9">
-                                    <input type="number" class="form-control" name="starting_number"/>
+                                    <input type="number" class="form-control" name="given_string"/>
                                 </div>
                             </div>
                             <div class="form-group-row">
-                                <label class="col-md-3 col-form-label">Ending Number</label>
+                                <label class="col-md-3 col-form-label">Total Word</label>
                                 <div class="col-md-9">
-                                    <input type="number" class="form-control" name="ending_number"/>
+                                    <input type="number" class="form-control"/>
                                 </div>
                             </div>
                             <div class="form-group-row">
-                                <label class="col-md-3 col-form-label">Odd/Even</label>
+                                <label class="col-md-3 col-form-label">Total Character</label>
                                 <div class="col-md-9">
-                                    <label for=""><input type="radio" name="odd_even" value="odd"/>Odd</label>
-                                    <label for=""><input type="radio" name="odd_even"value="even"/>Even</label>
+                                    <input type="number" class="form-control">
                                 </div>
                             </div>
-                            <div class="form-group-row">
-                                <label class="col-md-3 col-form-label">Result</label>
-                                <div class="col-md-9">
-                                    <textarea class="form-control"><?php echo isset($result) ? $result: ' ' ?></textarea>
-                                </div>
-                            </div>
-                            <div class="form-group-row">
-                                <label class="col-md-3 col-form-label"></label>
-                                <div class="col-md-9">
-                                    <input type="submit" class="btn btn-outline-success" name="btn"/>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
+                            
+<div class="form-group-row">
+    <label class="col-md-3 col-form-label"></label>
+    <div class="col-md-9">
+        <input type="submit" class="btn btn-outline-success" name="btn"/>
     </div>
+</div>
+</form>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 
 </section>
 
@@ -80,3 +74,4 @@
 <script src="../assets/js/bootstrap.js"></script>
 </body>
 </html>
+
